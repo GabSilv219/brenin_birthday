@@ -25,6 +25,24 @@ canvas {
   pointer-events: none;
 }
 
+.play-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 1000;
+}
+
+.play-button:hover {
+  background-color: #45a049;
+}
+
 .carousel {
   position: relative;
   width: 100%;
