@@ -12,6 +12,6 @@ playButton.addEventListener('click', function() {
         playButton.textContent = "⏸️ Pausar";
     } else {
         audio.pause();
-        playButton.textContent = "▶️ Play Música";
+        playButton.textContent = "▶️ Dj Solta o Pancadão";
     }
 });
